@@ -96,7 +96,7 @@ while True:
     game = Game()
 
     turn = game.choose_first()
-    print(turn + ' goes first..')
+    print(turn + ' goes first.. ')
 
     game.the_board.draw_board()
 
